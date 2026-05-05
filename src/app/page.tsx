@@ -242,6 +242,15 @@ export default function Home() {
         <a href="https://konsu.it/ricostruzione-unghie/">Scopri</a>
       </section>
 
+      <section className="map-section" aria-label="Mappa Konsu Parrucchieri Estetica">
+        <iframe
+          title="Konsu Parrucchieri Estetica su Google Maps"
+          src="https://www.google.com/maps?q=Konsu%20Parrucchieri%20Estetica%2C%20Via%20Bassa%20III%2075%2C%2035011%20Campodarsego%20PD&output=embed"
+          loading="lazy"
+          referrerPolicy="no-referrer-when-downgrade"
+        />
+      </section>
+
       <SiteFooter />
     </main>
   );
