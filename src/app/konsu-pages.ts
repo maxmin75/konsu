@@ -160,9 +160,14 @@ export const konsuPages: KonsuPage[] = [
     title: "Trattamenti",
     script: "Coccolati",
     eyebrow: "Il viaggio verso la bellezza inizia qui",
-    image: "/konsu/wellness.jpg",
+    image: "/konsu/treatments-presso-konsu.png",
     intro:
       "Immergiti in un mondo dove bellezza e benessere sono al centro. I nostri trattamenti innovativi e personalizzati lavorano su viso e corpo con tecniche avanzate.",
+    gallery: [
+      { src: "/konsu/treatments-pressotherapy.jpg", alt: "Trattamento pressoterapia" },
+      { src: "/konsu/treatments-presso-konsu.png", alt: "Pressoterapia Konsu" },
+      { src: "/konsu/treatments-lipolisi-konsu.jpg", alt: "Trattamento lipolisi Konsu" },
+    ],
     sections: [
       {
         title: "La tua destinazione per il benessere",
