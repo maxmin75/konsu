@@ -227,7 +227,7 @@ export const konsuPages: KonsuPage[] = [
     title: "Massaggio corpo",
     script: "Rilassati",
     eyebrow: "Esplora il benessere con il Massaggio Corpo Konsu",
-    image: "/konsu/wellness.jpg",
+    image: "/konsu/massaggio-corpo-hero-kali.jpg",
     intro:
       "Benvenuti nel mondo del relax e della cura personale presso KONSU, il tuo rifugio di bellezza e benessere. Il nostro Massaggio Corpo Generico è progettato per coccolare il tuo corpo, alleviare lo stress e rinnovare la tua energia vitale.",
     sections: [
