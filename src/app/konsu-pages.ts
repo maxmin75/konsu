@@ -112,7 +112,7 @@ export const konsuPages: KonsuPage[] = [
     title: "Ricostruzione unghie",
     script: "Creativita",
     eyebrow: "Una mano di stile",
-    image: "/konsu/nails-wide.jpg",
+    image: "/konsu/nails-hero-alt.jpg",
     intro:
       "Konsu e un salone estetico dedicato alla bellezza e alla cura delle tue unghie. Portiamo mani e piedi a nuovi livelli di splendore con trattamenti innovativi e design artistici personalizzati.",
     gallery: [
