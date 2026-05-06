@@ -190,18 +190,23 @@ export const konsuPages: KonsuPage[] = [
     eyebrow: "Konsu, la tua oasi di bellezza",
     image: "/konsu/estetica-hero-lettino-fiori.jpg",
     intro:
-      "Dalla cura del viso allo sguardo, dalla ceretta alla luce pulsata: l'estetica Konsu unisce precisione, prodotti delicati e attenzione alla persona.",
+      "KONSU - la tua oasi di bellezza. Dalla cura del viso allo sguardo, dalla ceretta alla luce pulsata: ogni trattamento unisce precisione, prodotti delicati e attenzione alla persona.",
     sections: [
       {
         title: "Servizi estetica",
         items: [
-          "Pulizia viso",
-          "Sopracciglia, colore sopracciglia e henne sopracciglia",
-          "Baffetto",
-          "Ceretta mezza gamba, gamba intera, inguine e ascelle",
-          "Ceretta schiena uomo e total body uomo/donna",
-          "Epilazione definitiva con luce pulsata",
-          "Extension volume ciglia",
+          "Epilazione Definitiva con Luce Pulsata: elimina i peli indesiderati con la nostra tecnologia di luce pulsata, garantendo una pelle liscia e risultati duraturi attraverso un trattamento sicuro e praticamente indolore.",
+          "Sopracciglia: scopri il potere di sopracciglia perfettamente modellate con i nostri esperti, che utilizzano tecniche di precisione per creare la forma ideale e valorizzare il tuo sguardo.",
+          "Colore Sopracciglia: ravviva e definisci le tue sopracciglia con il nostro servizio di colorazione, utilizzando pigmenti di alta qualita per garantire un risultato naturale e di lunga durata.",
+          "Henne Sopracciglia: esplora l'arte dell'henne per sopracciglia, un metodo naturale per colorare e definire, offrendo un look affascinante e duraturo senza l'uso di prodotti chimici.",
+          "Extension Volume Ciglia: valorizza il tuo sguardo con extension di ciglia voluminose, applicate con precisione dai nostri esperti per garantire un aspetto naturale, pieno e seducente.",
+          "Baffetto: rimuovi delicatamente i peli superflui dalla zona del baffetto con i nostri metodi delicati ed efficaci, assicurando una pelle liscia e risultati duraturi.",
+          "Ceretta Inguine / Ascelle: goditi una pelle liscia e setosa con la nostra ceretta per inguine e ascelle, utilizzando prodotti delicati per minimizzare il disagio e promuovere la cura della pelle.",
+          "Ceretta Mezza Gamba: esperienza di ceretta mezza gamba che combina efficienza e comfort, utilizzando cere di alta qualita per garantire una rimozione del pelo pulita e duratura.",
+          "Ceretta Gambe Intera: rivela gambe meravigliosamente lisce con la nostra ceretta completa, offrendo un servizio attento e meticoloso per assicurare risultati ottimali e una pelle impeccabile.",
+          "Ceretta Schiena Uomo: elimina i peli dalla schiena con la nostra ceretta maschile, progettata per offrire risultati lisci e duraturi con un approccio professionale e discreto.",
+          "Ceretta Total Body Uomo & Donna: scopri la liberta di una pelle completamente liscia con il nostro servizio di ceretta total body, adattato per soddisfare le esigenze specifiche di uomini e donne.",
+          "Pulizia Viso: rigenera la tua pelle con il nostro trattamento di pulizia del viso, utilizzando prodotti e tecniche avanzate per purificare, esfoliare e nutrire in profondita.",
         ],
       },
       {
