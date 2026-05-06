@@ -44,7 +44,7 @@ export const konsuPages: KonsuPage[] = [
     title: "Hair salon",
     script: "Hair lovers",
     eyebrow: "Campodarsego dal 1993",
-    image: "/konsu/salon-wide.jpg",
+    image: "/konsu/barber-chair.jpg",
     intro:
       "La tua bellezza e il tuo benessere sono al centro di tutto cio che facciamo. Il nostro team comprende le tue esigenze e crea servizi su misura, pensati per esaltare la tua immagine naturale.",
     sections: [
