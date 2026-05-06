@@ -261,7 +261,7 @@ export const konsuPages: KonsuPage[] = [
     title: "Kobido massage",
     script: "Dal Giappone",
     eyebrow: "Esplora il benessere autentico con il Kobido massaggio",
-    image: "/konsu/team-sara-new.jpg",
+    image: "/konsu/kobido-hero-massage.webp",
     intro:
       "Benvenuti nel nostro spazio dedicato al Kobido, un antico segreto giapponese per la bellezza e il benessere interiore. Il Kobido è più di un semplice massaggio; è un rituale che risveglia la tua energia vitale, rivitalizza la tua pelle e rilascia le tensioni accumulate.",
     sections: [
