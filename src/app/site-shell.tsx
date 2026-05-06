@@ -35,7 +35,12 @@ export function SiteNav() {
           </div>
         </div>
       </div>
-      <Link className="nav-cta" href="/#booking">
+      <Link
+        className="nav-cta"
+        href="https://hairflow.it/book/konsu"
+        target="_blank"
+        rel="noreferrer"
+      >
         Prenota
       </Link>
     </nav>
