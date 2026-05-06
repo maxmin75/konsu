@@ -2,33 +2,6 @@ import Link from "next/link";
 import Image from "next/image";
 import { SiteFooter, SiteNav } from "./site-shell";
 
-const services = [
-  {
-    title: "Capelli",
-    label: "Amiamo i capelli",
-    text: "Da 30 anni nella tua testa: consulenza, stile e cura per cambiare look valorizzando la tua immagine.",
-    image: "/konsu/styling-portrait.jpg",
-  },
-  {
-    title: "Benessere",
-    label: "Curiamo il benessere",
-    text: "Estetica, solarium e trattamenti pensati per prenderti cura di te dentro e fuori dal salone.",
-    image: "/konsu/color-red.jpg",
-  },
-  {
-    title: "Unghie",
-    label: "Artisti unghie",
-    text: "Ricostruzione, smalto e art color: colori, sfumature e forme, tutto nelle tue mani.",
-    image: "/konsu/nails-detail.jpg",
-  },
-  {
-    title: "Trattamenti",
-    label: "Beauty, spa, make-up",
-    text: "Trattamenti estetici, solarium e make-up con la stessa attenzione a creativita, cura e precisione.",
-    image: "/konsu/wellness.jpg",
-  },
-];
-
 const gallery = [
   { src: "/konsu/gallery-ricci-2.jpg", alt: "Taglio riccio con colore rosso", size: "square" },
   { src: "/konsu/gallery-marilena-6.jpg", alt: "Raccolto elegante con accessorio", size: "square" },
@@ -169,31 +142,6 @@ export default function Home() {
             <Link href={item.href}>Scopri di più</Link>
           </article>
         ))}
-      </section>
-
-      <section className="section services-section" id="servizi">
-        <div className="section-heading">
-          <p className="script">Konsu experience</p>
-          <h2>Capelli, benessere, unghie e trattamenti.</h2>
-        </div>
-        <div className="services-grid">
-          {services.map((service, index) => (
-            <article className="service-card" key={service.title}>
-              <div className="service-image">
-                <Image
-                  src={service.image}
-                  alt={service.title}
-                  fill
-                  sizes="(max-width: 900px) 100vw, 33vw"
-                />
-                <span>0{index + 1}</span>
-              </div>
-              <p>{service.label}</p>
-              <h3>{service.title}</h3>
-              <small>{service.text}</small>
-            </article>
-          ))}
-        </div>
       </section>
 
       <section className="feature-band" id="storia">
