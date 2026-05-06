@@ -329,7 +329,7 @@ export const konsuPages: KonsuPage[] = [
     title: "Solarium",
     script: "Abbronzatissima",
     eyebrow: "L'Esclusività del Solarium Alta Pressione a Konsu",
-    image: "/konsu/salon-wide.jpg",
+    image: "/konsu/solarium-hero.jpg",
     intro:
       "Nel cuore del nostro salone estetico, Konsu, si trova un angolo dedicato esclusivamente al tuo desiderio di ottenere un’abbronzatura perfetta in ogni stagione: il nostro Solarium Alta Pressione.",
     sections: [
