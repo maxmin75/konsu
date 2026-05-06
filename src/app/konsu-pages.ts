@@ -188,7 +188,7 @@ export const konsuPages: KonsuPage[] = [
     title: "Estetica",
     script: "Sempre in ordine",
     eyebrow: "Konsu, la tua oasi di bellezza",
-    image: "/konsu/barber-chair.jpg",
+    image: "/konsu/estetica-flower-bed.jpg",
     intro:
       "Dalla cura del viso allo sguardo, dalla ceretta alla luce pulsata: l'estetica Konsu unisce precisione, prodotti delicati e attenzione alla persona.",
     sections: [
