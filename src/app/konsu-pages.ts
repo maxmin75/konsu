@@ -295,7 +295,7 @@ export const konsuPages: KonsuPage[] = [
     title: "Massaggio californiano",
     script: "Un attimo per te",
     eyebrow: "Massaggio Californiano: Un'Esperienza di Rilassamento Profondo",
-    image: "/konsu/wellness.jpg",
+    image: "/konsu/massaggio-californiano-hero.jpg",
     intro:
       "Benvenuti nel nostro centro di bellezza e benessere, KONSU. Siamo lieti di offrirvi un’esperienza unica di relax attraverso il nostro esclusivo servizio di Massaggio Californiano.",
     sections: [
