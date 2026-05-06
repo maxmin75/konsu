@@ -5,6 +5,10 @@ export type KonsuPage = {
   eyebrow: string;
   intro: string;
   image: string;
+  gallery?: {
+    src: string;
+    alt: string;
+  }[];
   sections: {
     title: string;
     body?: string;
@@ -111,6 +115,18 @@ export const konsuPages: KonsuPage[] = [
     image: "/konsu/nails-wide.jpg",
     intro:
       "Konsu e un salone estetico dedicato alla bellezza e alla cura delle tue unghie. Portiamo mani e piedi a nuovi livelli di splendore con trattamenti innovativi e design artistici personalizzati.",
+    gallery: [
+      { src: "/konsu/nails-gallery-01.jpg", alt: "Ricostruzione unghie Konsu 01" },
+      { src: "/konsu/nails-gallery-02.jpg", alt: "Ricostruzione unghie Konsu 02" },
+      { src: "/konsu/nails-gallery-03.jpg", alt: "Ricostruzione unghie Konsu 03" },
+      { src: "/konsu/nails-gallery-04.jpg", alt: "Ricostruzione unghie Konsu 04" },
+      { src: "/konsu/nails-gallery-05.jpg", alt: "Ricostruzione unghie Konsu 05" },
+      { src: "/konsu/nails-gallery-06.jpg", alt: "Ricostruzione unghie Konsu 06" },
+      { src: "/konsu/nails-gallery-07.jpg", alt: "Ricostruzione unghie Konsu 07" },
+      { src: "/konsu/nails-gallery-08.jpg", alt: "Ricostruzione unghie Konsu 08" },
+      { src: "/konsu/nails-gallery-09.jpg", alt: "Ricostruzione unghie Konsu 09" },
+      { src: "/konsu/nails-gallery-10.jpg", alt: "Ricostruzione unghie Konsu 10" },
+    ],
     sections: [
       {
         title: "La nostra metodologia",

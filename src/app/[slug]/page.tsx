@@ -86,6 +86,22 @@ export default async function KonsuInnerPage({ params }: PageProps) {
         </div>
       </section>
 
+      {page.gallery ? (
+        <section className="inner-gallery-section" aria-label={`Gallery ${page.title}`}>
+          <div className="section-heading compact">
+            <p className="script">Gallery</p>
+            <h2>Alcune creazioni.</h2>
+          </div>
+          <div className="inner-gallery-grid">
+            {page.gallery.map((item) => (
+              <figure className="inner-gallery-item" key={item.src}>
+                <Image src={item.src} alt={item.alt} fill sizes="(max-width: 760px) 50vw, 20vw" />
+              </figure>
+            ))}
+          </div>
+        </section>
+      ) : null}
+
       <section className="inner-cta">
         <p className="script">Ti aspettiamo</p>
         <h2>Prenota il tuo momento Konsu.</h2>
