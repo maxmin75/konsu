@@ -126,6 +126,11 @@ export const konsuPages: KonsuPage[] = [
       { src: "/konsu/nails-gallery-08.jpg", alt: "Ricostruzione unghie Konsu 08" },
       { src: "/konsu/nails-gallery-09.jpg", alt: "Ricostruzione unghie Konsu 09" },
       { src: "/konsu/nails-gallery-10.jpg", alt: "Ricostruzione unghie Konsu 10" },
+      { src: "/konsu/nails-gallery-11.jpg", alt: "Ricostruzione unghie Konsu 11" },
+      { src: "/konsu/nails-gallery-12.jpg", alt: "Ricostruzione unghie Konsu 12" },
+      { src: "/konsu/nails-gallery-13.jpg", alt: "Ricostruzione unghie Konsu 13" },
+      { src: "/konsu/nails-gallery-14.jpg", alt: "Ricostruzione unghie Konsu 14" },
+      { src: "/konsu/nails-gallery-15.jpg", alt: "Ricostruzione unghie Konsu 15" },
     ],
     sections: [
       {
