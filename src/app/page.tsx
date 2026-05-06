@@ -66,7 +66,9 @@ export default function Home() {
             ricostruzione unghie e trattamenti a Campodarsego.
           </p>
           <div className="hero-actions">
-            <a href="#booking">Prenota un appuntamento</a>
+            <a href="https://hairflow.it/book/konsu" target="_blank" rel="noreferrer">
+              Prenota un appuntamento
+            </a>
             <a href="#gallery">Guarda i lavori</a>
           </div>
         </div>
