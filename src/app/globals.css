@@ -263,7 +263,16 @@ img {
   position: relative;
   width: min(1180px, 100%);
   color: var(--paper);
-  animation: riseIn 0.9s ease both;
+}
+
+.eyebrow,
+.hero-text,
+.hero-title-main,
+.hero-title-script,
+.hero-actions a {
+  opacity: 0;
+  transform: translateY(22px);
+  animation: heroTextIn 0.82s cubic-bezier(0.22, 1, 0.36, 1) forwards;
 }
 
 .eyebrow {
@@ -273,6 +282,7 @@ img {
   font-weight: 700;
   letter-spacing: 0.48em;
   text-transform: uppercase;
+  animation-delay: 0.18s;
 }
 
 .hero h1 {
@@ -286,13 +296,19 @@ img {
   letter-spacing: 0;
 }
 
-.hero h1 span {
+.hero-title-main {
+  color: var(--paper);
+}
+
+.hero-title-script {
   color: var(--gold);
   font-family: "Quentin", var(--font-cormorant), serif;
   font-size: clamp(3rem, 6.4vw, 6.2rem);
   font-weight: 400;
   line-height: 0.82;
-  transform: rotate(-3deg);
+  animation-name: heroScriptIn;
+  animation-delay: 0.7s;
+  transform: translateY(22px) rotate(-3deg);
 }
 
 .hero-text {
@@ -302,6 +318,7 @@ img {
   font-family: var(--font-cormorant), Georgia, serif;
   font-size: clamp(1.35rem, 2vw, 1.75rem);
   line-height: 1.45;
+  animation-delay: 1.02s;
 }
 
 .hero-actions {
@@ -309,6 +326,21 @@ img {
   flex-wrap: wrap;
   gap: 14px;
   margin-top: 36px;
+  animation: none;
+  opacity: 1;
+  transform: none;
+}
+
+.hero-title-main {
+  animation-delay: 0.42s;
+}
+
+.hero-actions a:first-child {
+  animation-delay: 1.3s;
+}
+
+.hero-actions a:last-child {
+  animation-delay: 1.46s;
 }
 
 .hero-actions a + a {
@@ -1252,6 +1284,28 @@ img {
   }
 }
 
+@keyframes heroTextIn {
+  from {
+    opacity: 0;
+    transform: translateY(22px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes heroScriptIn {
+  from {
+    opacity: 0;
+    transform: translateY(22px) rotate(-3deg);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) rotate(-3deg);
+  }
+}
+
 @keyframes marquee {
   from {
     transform: translateX(0);
@@ -1353,7 +1407,7 @@ img {
     font-size: clamp(3.5rem, 17vw, 5.2rem);
   }
 
-  .hero h1 span {
+  .hero-title-script {
     font-size: clamp(2.5rem, 12vw, 3.9rem);
   }
 

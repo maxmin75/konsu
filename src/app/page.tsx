@@ -85,8 +85,8 @@ export default function Home() {
         <div className="hero-copy">
           <p className="eyebrow">Campodarsego • since 1993</p>
           <h1>
-            We love hair
-            <span>Cambiamo look?</span>
+            <span className="hero-title-main">We love hair</span>
+            <span className="hero-title-script">Cambiamo look?</span>
           </h1>
           <p className="hero-text">
             Konsu Parrucchieri Estetica Solarium: capelli, estetica,
