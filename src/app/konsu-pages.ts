@@ -158,11 +158,11 @@ export const konsuPages: KonsuPage[] = [
   {
     slug: "trattamenti",
     title: "Trattamenti",
-    script: "Coccolati",
+    script: "Benessere",
     eyebrow: "Il viaggio verso la bellezza inizia qui",
     image: "/konsu/treatments-presso-konsu.png",
     intro:
-      "Immergiti in un mondo dove bellezza e benessere sono al centro. I nostri trattamenti innovativi e personalizzati lavorano su viso e corpo con tecniche avanzate.",
+      "Immergiti in un mondo dove la tua bellezza e il tuo benessere sono al centro di tutto cio che facciamo. Prenota il tuo appuntamento oggi e lasciati avvolgere dai nostri trattamenti innovativi e personalizzati.",
     gallery: [
       { src: "/konsu/treatments-pressotherapy.jpg", alt: "Trattamento pressoterapia" },
       { src: "/konsu/treatments-presso-konsu.png", alt: "Pressoterapia Konsu" },
@@ -172,13 +172,13 @@ export const konsuPages: KonsuPage[] = [
       {
         title: "La tua destinazione per il benessere",
         items: [
-          "Trattamenti viso personalizzati per un incarnato radiante e sano.",
-          "Ossigenoterapia viso per nutrire e rivitalizzare la pelle.",
-          "Ritual botux viso anti-eta per minimizzare le rughe.",
-          "Radiofrequenza viso/corpo per effetto lifting e rassodante.",
-          "Trattamenti corpo modellanti, tonificanti e riducenti.",
-          "Pressomassaggio con infrarossi per drenare liquidi e stimolare un effetto lipolitico.",
-          "Trattamenti LED di nuova generazione per il rinnovamento cellulare.",
+          "Pressomassaggio con Infrarossi: il nostro trattamento di pressomassaggio con infrarossi e progettato per drenare i liquidi e stimolare un effetto lipolitico, promuovendo il benessere e la tonicita della pelle.",
+          "Radiofrequenza Viso/Corpo: la radiofrequenza, applicata su viso e corpo, stimola la produzione di collagene, offrendo un effetto lifting e rassodante, per una pelle visibilmente piu giovane e tonica.",
+          "Trattamenti Corpo Modellanti Tonificanti, Riducenti: esplora i nostri trattamenti corpo, come la lipolisi, il lipolaser ed EMS Nubway, progettati per modellare e ridurre, offrendo una silhouette piu snella e definita.",
+          "Trattamenti Viso: i nostri trattamenti viso sono personalizzati per soddisfare le esigenze della tua pelle, utilizzando prodotti e tecniche avanzate per promuovere un incarnato radiante e sano.",
+          "Trattamenti New Generation LED: scopri i benefici dei nostri trattamenti LED di nuova generazione, che utilizzano la luce per stimolare il rinnovamento cellulare e promuovere una pelle visibilmente piu giovane e luminosa.",
+          "Ossigenoterapia Viso: l'ossigenoterapia per il viso rigenera e rivitalizza la pelle, offrendo un trattamento che nutre in profondita, per un incarnato fresco, luminoso e pieno di vitalita.",
+          "Ritual Botux Viso: il nostro ritual botux viso e un trattamento anti-eta intensivo, che utilizza principi attivi avanzati per minimizzare le rughe e restituire alla pelle un aspetto giovane e rilassato.",
         ],
       },
     ],
