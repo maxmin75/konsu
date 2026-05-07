@@ -399,7 +399,7 @@ img {
 }
 
 .offer-card.featured {
-  background: rgba(0, 0, 0, 0.9);
+  background: #10263d;
   color: #ffffff;
   padding: 24px;
 }
@@ -495,7 +495,6 @@ img {
     transform 0.32s ease;
 }
 
-.quick-service-card.dark::before,
 .quick-service-card:hover::before,
 .quick-service-card:focus-within::before {
   opacity: 1;

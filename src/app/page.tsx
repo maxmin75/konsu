@@ -189,7 +189,7 @@ export default function Home() {
           <p className="script">Mani</p>
           <h2>Colori sfumature forme, tutto nelle tue mani.</h2>
         </div>
-        <a href="https://konsu.it/ricostruzione-unghie/">Scopri</a>
+        <Link href="/ricostruzione-unghie/">Scopri</Link>
       </section>
 
       <section className="map-section" aria-label="Mappa Konsu Parrucchieri Estetica">
