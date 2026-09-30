@@ -27,6 +27,8 @@ export const konsuPages: KonsuPage[] = [
     script: "History",
     eyebrow: "Il tuo salone di fiducia da 30 anni",
     image: "/konsu/konsu-staff-campodarsego.jpg",
+    metaTitle: "Konsu: chi siamo | Parrucchieri a Campodarsego",
+    metaDescription: "Dal 1993 ci prendiamo cura di capelli, estetica e unghie a Campodarsego. Scopri la storia e le persone di Konsu.",
     intro:
       "La nostra realta nasce il 17 novembre 1993 con il nome di Parrucchieri Consuelo. Nel 2003 il salone cambia veste e diventa Parrucchieri Estetica Solarium; l'8 settembre 2018 prende forma il brand KONSU Parrucchieri Estetica.",
     sections: [
@@ -53,6 +55,8 @@ export const konsuPages: KonsuPage[] = [
     script: "Hair lovers",
     eyebrow: "Campodarsego dal 1993",
     image: "/konsu/barber-chair.jpg",
+    metaTitle: "Parrucchiere a Campodarsego | Taglio e colore | Konsu",
+    metaDescription: "Taglio, piega, colore e trattamenti per capelli nel salone Konsu a Campodarsego. Scopri i servizi e prenota il tuo appuntamento.",
     intro:
       "La tua bellezza e il tuo benessere sono al centro di tutto cio che facciamo. Il nostro team comprende le tue esigenze e crea servizi su misura, pensati per esaltare la tua immagine naturale.",
     sections: [
@@ -91,6 +95,8 @@ export const konsuPages: KonsuPage[] = [
     script: "L'evento",
     eyebrow: "Per un giorno speciale",
     image: "/konsu/gallery-marilena-11.jpg",
+    metaTitle: "Acconciature sposa a Campodarsego | Konsu",
+    metaDescription: "Acconciature e make-up per il matrimonio, pensati con te nel salone Konsu a Campodarsego. Scopri il percorso dedicato alla sposa.",
     intro:
       "Il giorno del matrimonio e uno degli eventi piu speciali. Da Konsu rendiamo ogni sposa la versione piu splendida di se attraverso acconciature e make-up personalizzati.",
     sections: [
@@ -117,6 +123,8 @@ export const konsuPages: KonsuPage[] = [
     script: "Creativita",
     eyebrow: "Una mano di stile",
     image: "/konsu/nails-hero-alt.jpg",
+    metaTitle: "Ricostruzione unghie a Campodarsego | Konsu",
+    metaDescription: "Ricostruzione unghie, manicure, pedicure e nail art nel salone Konsu a Campodarsego. Guarda le creazioni e scopri i trattamenti.",
     intro:
       "Konsu e un salone estetico dedicato alla bellezza e alla cura delle tue unghie. Portiamo mani e piedi a nuovi livelli di splendore con trattamenti innovativi e design artistici personalizzati.",
     gallery: [
@@ -165,6 +173,8 @@ export const konsuPages: KonsuPage[] = [
     script: "Benessere",
     eyebrow: "Il viaggio verso la bellezza inizia qui",
     image: "/konsu/treatments-presso-konsu.png",
+    metaTitle: "Trattamenti viso e corpo a Campodarsego | Konsu",
+    metaDescription: "Scopri i trattamenti viso e corpo proposti da Konsu a Campodarsego, dalla pressoterapia alla cura del viso. Prenota una consulenza.",
     intro:
       "Immergiti in un mondo dove la tua bellezza e il tuo benessere sono al centro di tutto cio che facciamo. Prenota il tuo appuntamento oggi e lasciati avvolgere dai nostri trattamenti innovativi e personalizzati.",
     gallery: [
@@ -193,6 +203,8 @@ export const konsuPages: KonsuPage[] = [
     script: "Sempre in ordine",
     eyebrow: "Konsu, la tua oasi di bellezza",
     image: "/konsu/estetica-hero-lettino-fiori.jpg",
+    metaTitle: "Centro estetico a Campodarsego | Konsu",
+    metaDescription: "Trattamenti viso, epilazione, cura dello sguardo e percorsi relax nel salone estetico Konsu a Campodarsego. Esplora i servizi.",
     intro:
       "KONSU - la tua oasi di bellezza. Dalla cura del viso allo sguardo, dalla ceretta alla luce pulsata: ogni trattamento unisce precisione, prodotti delicati e attenzione alla persona.",
     sections: [
@@ -232,6 +244,8 @@ export const konsuPages: KonsuPage[] = [
     script: "Rilassati",
     eyebrow: "Esplora il benessere con il Massaggio Corpo Konsu",
     image: "/konsu/massaggio-corpo-hero-kali.jpg",
+    metaTitle: "Massaggio corpo a Campodarsego | Konsu",
+    metaDescription: "Concediti un momento di relax con un massaggio corpo nel salone Konsu a Campodarsego. Scopri il trattamento e prenota la tua pausa.",
     intro:
       "Benvenuti nel mondo del relax e della cura personale presso KONSU, il tuo rifugio di bellezza e benessere. Il nostro Massaggio Corpo Generico è progettato per coccolare il tuo corpo, alleviare lo stress e rinnovare la tua energia vitale.",
     sections: [
@@ -266,6 +280,8 @@ export const konsuPages: KonsuPage[] = [
     script: "Dal Giappone",
     eyebrow: "Esplora il benessere autentico con il Kobido massaggio",
     image: "/konsu/kobido-hero-massage.webp",
+    metaTitle: "Massaggio Kobido a Campodarsego | Konsu",
+    metaDescription: "Scopri il massaggio viso Kobido nel salone Konsu a Campodarsego: un momento dedicato al relax e alla cura di te.",
     intro:
       "Benvenuti nel nostro spazio dedicato al Kobido, un antico segreto giapponese per la bellezza e il benessere interiore. Il Kobido è più di un semplice massaggio; è un rituale che risveglia la tua energia vitale, rivitalizza la tua pelle e rilascia le tensioni accumulate.",
     sections: [
@@ -300,6 +316,8 @@ export const konsuPages: KonsuPage[] = [
     script: "Un attimo per te",
     eyebrow: "Massaggio Californiano: Un'Esperienza di Rilassamento Profondo",
     image: "/konsu/massaggio-californiano-hero.jpg",
+    metaTitle: "Massaggio californiano a Campodarsego | Konsu",
+    metaDescription: "Un trattamento dedicato al relax: scopri il massaggio californiano nel salone Konsu a Campodarsego e prenota il tuo appuntamento.",
     intro:
       "Benvenuti nel nostro centro di bellezza e benessere, KONSU. Siamo lieti di offrirvi un’esperienza unica di relax attraverso il nostro esclusivo servizio di Massaggio Californiano.",
     sections: [
@@ -362,6 +380,8 @@ export const konsuPages: KonsuPage[] = [
     script: "Apri gli occhi",
     eyebrow: "Scopri la bellezza senza confini con la Laminazione Ciglia",
     image: "/konsu/team-sara-new.jpg",
+    metaTitle: "Laminazione ciglia a Campodarsego | Konsu",
+    metaDescription: "Scopri la laminazione ciglia nel salone Konsu a Campodarsego. Un trattamento per valorizzare lo sguardo con un risultato naturale.",
     intro:
       "Benvenuti nel mondo della bellezza definita e senza sforzo con la Laminazione Ciglia presso il nostro salone. La Laminazione Ciglia è il segreto per ciglia dall’aspetto lussuoso, incurvato e dal fascino senza tempo.",
     sections: [
@@ -401,6 +421,8 @@ export const konsuPages: KonsuPage[] = [
     script: "Quella cosa in piu",
     eyebrow: "Konsu - La Tua Oasi di Bellezza",
     image: "/konsu/gallery-marilena-6.jpg",
+    metaTitle: "Make-up a Campodarsego | Konsu",
+    metaDescription: "Make-up personalizzato per ogni occasione nel salone Konsu a Campodarsego. Esplora il servizio e prenota il tuo appuntamento.",
     intro:
       "Il Tuo Sguardo, La Tua Essenza, Riflessi d’arte. Da Konsu, crediamo che ogni volto sia una tela unica e meravigliosa. I nostri servizi di make-up e allungamento ciglia sono progettati per esaltare la tua bellezza naturale, garantendoti un look radiante e autentico.",
     sections: [

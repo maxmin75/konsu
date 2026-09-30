@@ -22,10 +22,14 @@ L'identità visiva attuale è parte del brand. Le modifiche SEO devono conservar
 
 - **Pubblicato e verificato:** title e meta description della homepage corretti.
 - **Pubblicato e verificato:** URL canonici per homepage e pagine servizio.
-- **Pubblicato e verificato:** `robots.txt` e sitemap con 13 URL pubblici canonici.
+- **Pubblicato e verificato:** `robots.txt` e sitemap con 17 URL pubblici canonici, comprese le quattro pagine locali.
 - **Pubblicato e verificato:** dati strutturati `HairSalon` con dati già pubblicati sul sito.
 - **Pubblicato e verificato:** `www.konsu.it` reindirizza con HTTP 308 alla versione canonica, mantenendo percorso e parametri; il certificato HTTPS è valido.
-- **Da verificare dopo la pubblicazione:** indicizzazione, copertura e query in Google Search Console, se disponibile.
+- **Search Console accessibile il 30 settembre 2026:** la proprietà dominio `konsu.it` è verificata; rendimento e copertura sono ancora in elaborazione.
+- **Sitemap inviata e testata:** `https://konsu.it/sitemap.xml` è stata inviata alla proprietà dominio. Il file pubblico risponde con HTTP 200 e XML valido; il test live di Google per smartphone conferma `Recupero pagina: Esito positivo`, scansione consentita e URL disponibile. Il report Sitemap continua però a mostrare `Impossibile recuperare` e 0 pagine rilevate anche dopo un nuovo invio: la causa non è ancora dimostrata e l'elaborazione non va considerata riuscita.
+- **DNS di verifica:** il TXT è visibile sul server primario e su Google DNS; durante il controllo due server secondari VHosting non lo restituivano ancora. Gli indirizzi A pubblicati dai cinque server autorevoli coincidono.
+- **Pagine locali:** `/da-padova`, `/da-camposampiero`, `/da-mira` e `/da-dolo` risultavano ancora sconosciute all'indice Google. Search Console ha confermato una richiesta di indicizzazione per ciascuna pagina; l'inserimento in coda non garantisce l'indicizzazione.
+- **Metadati dei servizi:** il controllo live mostrava descrizioni tra 168 e 270 caratteri e title privi della località sulle pagine servizio. Sono stati preparati title e descrizioni più brevi e specifici per 11 pagine, senza modificare contenuti visibili o grafica. Il Solarium è escluso da questa revisione perché il checkout principale contiene un lavoro locale di rimozione ancora non pubblicato.
 
 ## Modifiche visive da valutare prima di implementare
 
@@ -56,5 +60,7 @@ L'identità visiva attuale è parte del brand. Le modifiche SEO devono conservar
 
 ## Verifiche ancora necessarie
 
-- Accesso ai dati Search Console per scegliere query e pagine in base a impressioni, clic e copertura.
+- Ricontrollare la lettura della sitemap e i report Search Console dopo l'elaborazione; le vecchie sitemap WordPress restano nello storico con errori di recupero.
+- Usare query, impressioni, clic e copertura quando i dati saranno disponibili.
+- Chiarire se il Solarium è ancora un servizio attivo prima di modificare la relativa pagina pubblica e la sitemap.
 - Conferma delle località servite e dei materiali originali per eventuali landing.
