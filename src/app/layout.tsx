@@ -17,9 +17,29 @@ const cormorant = Cormorant_Garamond({
 });
 
 export const metadata: Metadata = {
-  title: "Konsu | Hair salon & beauty studio",
+  metadataBase: new URL("https://konsu.it"),
+  title: "Konsu Parrucchieri Estetica | Salone a Campodarsego",
   description:
-    "Sito Next.js e React ricreato dal progetto WordPress Konsu con immagini, struttura e animazioni ispirate al tema originale.",
+    "Capelli, estetica, ricostruzione unghie e trattamenti a Campodarsego. Scopri Konsu Parrucchieri Estetica e prenota il tuo appuntamento.",
+  alternates: { canonical: "/" },
+};
+
+const localBusiness = {
+  "@context": "https://schema.org",
+  "@type": "HairSalon",
+  "@id": "https://konsu.it/#salone",
+  name: "Konsu Parrucchieri Estetica",
+  url: "https://konsu.it/",
+  image: "https://konsu.it/konsu/konsu-staff-campodarsego.jpg",
+  telephone: "+390499201171",
+  address: {
+    "@type": "PostalAddress",
+    streetAddress: "Via Bassa III, 75",
+    postalCode: "35011",
+    addressLocality: "Campodarsego",
+    addressRegion: "PD",
+    addressCountry: "IT",
+  },
 };
 
 export default function RootLayout({
@@ -29,6 +49,12 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="it" className={`${montserrat.variable} ${cormorant.variable}`}>
+      <head>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(localBusiness).replace(/</g, "\\u003c") }}
+        />
+      </head>
       <body>
         {children}
         <AnalyticsConsent />
