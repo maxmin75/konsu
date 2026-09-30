@@ -26,11 +26,11 @@ L'identità visiva attuale è parte del brand. Le modifiche SEO devono conservar
 - **Pubblicato e verificato:** dati strutturati `HairSalon` con dati già pubblicati sul sito.
 - **Pubblicato e verificato:** `www.konsu.it` reindirizza con HTTP 308 alla versione canonica, mantenendo percorso e parametri; il certificato HTTPS è valido.
 - **Search Console accessibile il 30 settembre 2026:** la proprietà dominio `konsu.it` è verificata; rendimento e copertura sono ancora in elaborazione.
-- **Sitemap inviata e testata:** `https://konsu.it/sitemap.xml` è stata inviata alla proprietà dominio. Il file pubblico risponde con HTTP 200 e XML valido; il test live di Google per smartphone conferma `Recupero pagina: Esito positivo`, scansione consentita e URL disponibile. Il report Sitemap continua però a mostrare `Impossibile recuperare` e 0 pagine rilevate anche dopo un nuovo invio: la causa non è ancora dimostrata e l'elaborazione non va considerata riuscita.
+- **Sitemap inviata e letta da Google:** `https://konsu.it/sitemap.xml` è stata inviata alla proprietà dominio. Il file pubblico risponde con HTTP 200 e XML valido. Il 30 settembre 2026 Search Console mostra per questa sitemap `Riuscita`, ultima lettura il 30 settembre e 17 pagine rilevate. Le vecchie sitemap WordPress nello storico hanno stati separati e non riguardano questo file.
 - **DNS di verifica:** il TXT è visibile sul server primario e su Google DNS; durante il controllo due server secondari VHosting non lo restituivano ancora. Gli indirizzi A pubblicati dai cinque server autorevoli coincidono.
 - **Pagine locali:** `/da-padova`, `/da-camposampiero`, `/da-mira` e `/da-dolo` risultavano ancora sconosciute all'indice Google. Search Console ha confermato una richiesta di indicizzazione per ciascuna pagina; l'inserimento in coda non garantisce l'indicizzazione.
 - **Metadati dei servizi pubblicati e verificati:** il controllo iniziale mostrava descrizioni tra 168 e 270 caratteri e title privi della località sulle pagine servizio. Sono ora online title e descrizioni più brevi e specifici per 11 pagine; la verifica pubblica ha confermato i nuovi metadati senza modifiche a contenuti visibili, componenti o CSS. Il Solarium è escluso da questa revisione perché il checkout principale contiene un lavoro locale di rimozione ancora non pubblicato.
-- **Rilascio del 30 settembre 2026:** commit `14374cb`, deployment Vercel `dpl_9K1RqCDnxDDDLcXs5E1AGQhsXEwS`, alias di produzione `https://konsu.it`. Il controllo pubblico successivo al rilascio ha rilevato 17 URL della sitemap raggiungibili con HTTP 200, un H1 per pagina e canonical coerenti. La sitemap resta in errore nel report Search Console finché Google non ne conferma l'elaborazione.
+- **Rilascio del 30 settembre 2026:** commit `14374cb`, deployment Vercel `dpl_9K1RqCDnxDDDLcXs5E1AGQhsXEwS`, alias di produzione `https://konsu.it`. Il controllo pubblico successivo al rilascio ha rilevato 17 URL della sitemap raggiungibili con HTTP 200, un H1 per pagina e canonical coerenti.
 
 ## Modifiche visive da valutare prima di implementare
 
@@ -61,7 +61,7 @@ L'identità visiva attuale è parte del brand. Le modifiche SEO devono conservar
 
 ## Verifiche ancora necessarie
 
-- Ricontrollare la lettura della sitemap e i report Search Console dopo l'elaborazione; le vecchie sitemap WordPress restano nello storico con errori di recupero.
+- Seguire i report di indicizzazione Search Console dopo l'elaborazione; `Riuscita` per la sitemap conferma la lettura del file, non l'indicizzazione delle 17 pagine. Le vecchie sitemap WordPress restano nello storico con stati propri.
 - Usare query, impressioni, clic e copertura quando i dati saranno disponibili.
 - Chiarire se il Solarium è ancora un servizio attivo prima di modificare la relativa pagina pubblica e la sitemap.
 - Conferma delle località servite e dei materiali originali per eventuali landing.
