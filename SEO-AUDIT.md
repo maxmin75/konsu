@@ -20,10 +20,11 @@ L'identità visiva attuale è parte del brand. Le modifiche SEO devono conservar
 
 ## Interventi senza impatto visivo
 
-- **Implementato nel codice:** title e meta description della homepage corretti.
-- **Implementato nel codice:** URL canonici per homepage e pagine servizio.
-- **Implementato nel codice:** `robots.txt` e sitemap con le sole pagine pubbliche canoniche.
-- **Implementato nel codice:** dati strutturati `HairSalon` con dati già pubblicati sul sito.
+- **Pubblicato e verificato:** title e meta description della homepage corretti.
+- **Pubblicato e verificato:** URL canonici per homepage e pagine servizio.
+- **Pubblicato e verificato:** `robots.txt` e sitemap con 13 URL pubblici canonici.
+- **Pubblicato e verificato:** dati strutturati `HairSalon` con dati già pubblicati sul sito.
+- **Pubblicato e verificato:** `www.konsu.it` reindirizza con HTTP 308 alla versione canonica, mantenendo percorso e parametri; il certificato HTTPS è valido.
 - **Da verificare dopo la pubblicazione:** indicizzazione, copertura e query in Google Search Console, se disponibile.
 
 ## Modifiche visive da valutare prima di implementare
@@ -46,6 +47,4 @@ L'identità visiva attuale è parte del brand. Le modifiche SEO devono conservar
 ## Verifiche ancora necessarie
 
 - Accesso ai dati Search Console per scegliere query e pagine in base a impressioni, clic e copertura.
-- Coerenza del dominio `www` e dei redirect con la versione canonica `https://konsu.it/`.
 - Conferma delle località servite e dei materiali originali per eventuali landing.
-- Verifica dopo pubblicazione dei metadati, della sitemap e dei dati strutturati sul sito pubblico.

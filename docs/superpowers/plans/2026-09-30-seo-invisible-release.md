@@ -24,7 +24,8 @@
 
 ## 3. Pubblicare e controllare
 
-- [ ] Collegare questo checkout allo stesso progetto Vercel `konsu` già usato dal sito, senza copiare credenziali nel repository.
-- [ ] Pubblicare il solo commit SEO in produzione e attendere lo stato Ready.
-- [ ] Verificare online homepage, pagina servizio, canonical, JSON-LD, `robots.txt`, `sitemap.xml` e contenuto visivo.
-- [ ] Non dichiarare completata l'indicizzazione: controllarla successivamente in Search Console.
+- [x] Collegare questo checkout allo stesso progetto Vercel `konsu` già usato dal sito, senza copiare credenziali nel repository.
+- [x] Pubblicare il solo commit SEO in produzione e attendere lo stato Ready (`54abdb2`, deployment `dpl_2byKte2YzVo51UDSAWczMGH1sBUu`).
+- [x] Verificare online homepage, pagina servizio, canonical, JSON-LD, `robots.txt`, `sitemap.xml` e contenuto visivo.
+- [x] Verificare il redirect HTTPS 308 da `www.konsu.it` verso il dominio canonico.
+- [x] Registrare che l'indicizzazione rimane da controllare in Search Console.
