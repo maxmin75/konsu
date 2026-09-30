@@ -79,21 +79,21 @@ export default function Home() {
           <p className="offer-script">Amiamo i</p>
           <h2>Capelli</h2>
           <span>Da 30 anni nella tua testa</span>
-          <a href="#servizi">Scopri di piu</a>
+          <Link href="/hair-salon/">Scopri di piu</Link>
         </article>
         <article className="offer-card featured">
           <div>
             <p className="offer-script">Curiamo il</p>
             <h2>Benessere</h2>
             <span>Estetica - Solarium - Trattamenti</span>
-            <a href="#servizi">Scopri di piu</a>
+            <Link href="/trattamenti/">Scopri di piu</Link>
           </div>
         </article>
         <article className="offer-card">
           <p className="offer-script">Artisti</p>
           <h2>Unghie</h2>
           <span>Ricostruzione - Artcolor</span>
-          <a href="#booking">Scopri di piu</a>
+          <Link href="/ricostruzione-unghie/">Scopri di piu</Link>
         </article>
       </section>
 

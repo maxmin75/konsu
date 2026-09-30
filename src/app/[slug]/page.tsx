@@ -115,13 +115,9 @@ export default async function KonsuInnerPage({ params }: PageProps) {
       <section className="inner-cta">
         <p className="script">Ti aspettiamo</p>
         <h2>Prenota il tuo momento Konsu.</h2>
-        {page.directionsOrigin ? (
-          <a href="https://hairflow.it/book/konsu" target="_blank" rel="noreferrer">
-            Prenota un appuntamento
-          </a>
-        ) : (
-          <Link href="/#booking">Prenota un appuntamento</Link>
-        )}
+        <a href="https://hairflow.it/book/konsu" target="_blank" rel="noreferrer">
+          Prenota un appuntamento
+        </a>
         {page.directionsOrigin ? (
           <a
             className="directions-link"
