@@ -44,6 +44,8 @@ L'identità visiva attuale è parte del brand. Le modifiche SEO devono conservar
 - **Modifica visiva richiesta:** quattro pagine che riusano hero, sezioni, gallery e CTA delle pagine servizio; un gruppo discreto di link nel footer esistente. Sui telefoni i titoli locali più lunghi usano una misura leggermente inferiore dello stesso font per evitare tagli.
 - **Alternativa meno invasiva:** una sola pagina «Dove siamo» con quattro link alle indicazioni. Se le nuove pagine non offrono utilità distinta o non ottengono riscontri in Search Console, questa rimane l'alternativa consigliata.
 - **Limite editoriale:** nessuna distanza, durata del tragitto, testimonianza, servizio a domicilio o sede secondaria senza verifica; ogni pagina indica l'indirizzo reale e collega le indicazioni stradali dalla località di partenza.
+- **Stato al 30 settembre 2026:** pubblicate `/da-padova`, `/da-camposampiero`, `/da-mira` e `/da-dolo`. Le pagine rispondono con HTTP 200, hanno canonical propri e sono nella sitemap pubblica (17 URL totali). Nel browser desktop sono stati verificati hero, titoli, link e indirizzo. Il breakpoint mobile è stato controllato nel CSS, senza prova visiva su dispositivo.
+- **Presupposto editoriale da confermare con Konsu:** queste città sono trattate come punti di partenza verso il salone di Campodarsego. Le pagine non dichiarano una clientela locale già esistente né servizi svolti fuori sede.
 
 ### FAQ, breadcrumb e nuovi blocchi di testo
 

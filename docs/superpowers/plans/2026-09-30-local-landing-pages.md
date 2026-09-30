@@ -11,6 +11,6 @@
 - [x] Riutilizzare il template esistente senza palette, font, logo, header o ritmo nuovi.
 - [x] Collegare le pagine dal footer e includerle nella sitemap canonica.
 - [x] Verificare title, canonical, contenuti, link e grafica nel browser desktop; controllare il breakpoint mobile nel CSS.
-- [ ] Pubblicare e verificare le quattro URL sul sito pubblico.
+- [x] Pubblicare e verificare le quattro URL sul sito pubblico (`f4c9d90`, deployment `dpl_7itCEgw7qD71zkjfkzTeGw3QmX4j`).
 
 **Vincoli:** non inventare sede, recensioni, tempi di viaggio, parcheggio o prestazioni non documentate. La verifica dell'indicizzazione resta in Search Console.
