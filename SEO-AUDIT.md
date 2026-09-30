@@ -33,6 +33,9 @@ L'identità visiva attuale è parte del brand. Le modifiche SEO devono conservar
 - **Rilascio del 30 settembre 2026:** commit `14374cb`, deployment Vercel `dpl_9K1RqCDnxDDDLcXs5E1AGQhsXEwS`, alias di produzione `https://konsu.it`. Il controllo pubblico successivo al rilascio ha rilevato 17 URL della sitemap raggiungibili con HTTP 200, un H1 per pagina e canonical coerenti.
 - **Controllo successivo dell'indicizzazione:** il report `Pagine` della proprietà dominio è ancora in elaborazione, perciò non consente di distinguere URL indicizzati ed esclusi. La sitemap è letta con successo, ma questo dato non equivale all'indicizzazione.
 - **Collegamenti interni:** la scansione delle 17 pagine pubbliche ha trovato le quattro landing locali collegate dal footer di ogni pagina. Sulla homepage due link `#servizi` puntavano a un'ancora inesistente; i tre inviti «Scopri di più» delle offerte sono stati collegati alle rispettive pagine di servizio. Le CTA «Prenota un appuntamento» delle pagine servizio puntavano al pannello unghie nella homepage; sono state allineate al link di prenotazione già usato nella navigazione e nelle pagine locali. Nessun componente o CSS è stato modificato.
+- **Rilascio dei link del 30 settembre 2026:** commit `be1e142`, deployment Vercel `dpl_BsDpKut1QJFT8JxtdxECkfuPqH9d`, alias `https://konsu.it`. La scansione pubblica successiva ha confermato 17/17 pagine HTTP 200 con un H1, link e ancore interni validi, immagini con attributo alt, e quattro landing locali collegate da tutte le pagine.
+- **Prestazioni in Search Console:** il report Core Web Vitals non dispone ancora di dati d'uso sufficienti, né su mobile né su desktop. Non è quindi possibile dedurre da quel report se le metriche reali degli utenti siano buone o scadenti.
+- **Misura di laboratorio mobile:** il report PageSpeed Insights del 30 settembre 2026 alle 16:35 (Moto G Power emulato, rete 4G lenta) ha dato 55/100 per le prestazioni e 100/100 per i controlli SEO di base; FCP 24,3 s, LCP 27,5 s, CLS 0. Il payload rilevato era circa 15 MB, con circa 10 MB da risorse Vercel Blob esterne e 3,9 MB da Google Fonts esterni. È una singola prova sintetica, non un dato di uso reale o una diagnosi definitiva. Report: `https://pagespeed.web.dev/analysis/https-konsu-it/sndvn5fcsw?utm_source=search_console&form_factor=mobile&hl=it`.
 
 ## Modifiche visive da valutare prima di implementare
 
@@ -60,6 +63,13 @@ L'identità visiva attuale è parte del brand. Le modifiche SEO devono conservar
 - **Beneficio SEO potenziale:** contesto più preciso e collegamenti interni più chiari.
 - **Modifica visiva richiesta:** eventuali piccoli elementi nell'interfaccia delle pagine servizio.
 - **Alternativa meno invasiva:** integrare microcopy e link nei blocchi già presenti; ricorrere a FAQ compatte solo per domande reali.
+
+### Prestazioni della homepage mobile
+
+- **Motivo:** la misura di laboratorio segnala un caricamento iniziale lento su una connessione mobile emulata; Search Console non ha ancora dati reali sufficienti.
+- **Beneficio SEO e UX potenziale:** ridurre il tempo prima che l'hero sia visibile e la pagina utilizzabile, senza ridurre la qualità delle fotografie.
+- **Modifica visiva o di comportamento da valutare:** un eventuale caricamento differito del widget di prenotazione o del video può cambiare quando compaiono elementi e animazioni; va verificato nel browser prima di adottarlo.
+- **Alternativa meno invasiva:** analizzare la provenienza esatta delle risorse esterne e ottimizzare solo il loro caricamento e le priorità di rete, mantenendo immagini, font e componenti esistenti.
 
 ## Verifiche ancora necessarie
 
