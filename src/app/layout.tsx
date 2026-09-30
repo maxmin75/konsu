@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Cormorant_Garamond, Montserrat } from "next/font/google";
+import { AnalyticsConsent } from "./analytics-consent";
 import Script from "next/script";
 import "./globals.css";
 
@@ -30,6 +31,7 @@ export default function RootLayout({
     <html lang="it" className={`${montserrat.variable} ${cormorant.variable}`}>
       <body>
         {children}
+        <AnalyticsConsent />
         <Script
           src="https://hairflow.it/embed/booking-widget.js"
           data-hairflow-booking=""
