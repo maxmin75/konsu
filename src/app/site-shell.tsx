@@ -84,6 +84,11 @@ export function SiteFooter() {
         <p>
           <strong>MOB.</strong> <a href="tel:+393458169711">345 816 9711</a>
         </p>
+        <p className="footer-local-title">Raggiungici da</p>
+        <p className="footer-local-links">
+          <Link href="/da-padova/">Padova</Link> · <Link href="/da-camposampiero/">Camposampiero</Link> ·{" "}
+          <Link href="/da-mira/">Mira</Link> · <Link href="/da-dolo/">Dolo</Link>
+        </p>
       </div>
     </footer>
   );

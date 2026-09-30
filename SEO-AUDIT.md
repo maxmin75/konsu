@@ -37,6 +37,14 @@ L'identità visiva attuale è parte del brand. Le modifiche SEO devono conservar
 - **Alternativa meno invasiva:** migliorare le pagine dei servizi esistenti e includere brevi informazioni sulla provenienza dei clienti solo dove sono vere e utili. Evitare quattro pagine quasi identiche che rimandano allo stesso salone.
 - **Condizione:** confermare il rapporto reale con ciascuna località e raccogliere materiale originale; non presentare sedi inesistenti né inventare testimonianze.
 
+#### Progetto approvato per la creazione
+
+- **Motivo:** dare a chi parte da queste località un percorso chiaro verso l'unica sede di Campodarsego e verso i servizi pertinenti.
+- **Beneficio SEO potenziale:** pagine raggiungibili dal sito, con titoli e contenuti descrittivi diversi, senza far credere che Konsu abbia altre sedi.
+- **Modifica visiva richiesta:** quattro pagine che riusano hero, sezioni, gallery e CTA delle pagine servizio; un gruppo discreto di link nel footer esistente. Sui telefoni i titoli locali più lunghi usano una misura leggermente inferiore dello stesso font per evitare tagli.
+- **Alternativa meno invasiva:** una sola pagina «Dove siamo» con quattro link alle indicazioni. Se le nuove pagine non offrono utilità distinta o non ottengono riscontri in Search Console, questa rimane l'alternativa consigliata.
+- **Limite editoriale:** nessuna distanza, durata del tragitto, testimonianza, servizio a domicilio o sede secondaria senza verifica; ogni pagina indica l'indirizzo reale e collega le indicazioni stradali dalla località di partenza.
+
 ### FAQ, breadcrumb e nuovi blocchi di testo
 
 - **Motivo:** chiarire servizi e navigazione.

@@ -5,6 +5,9 @@ export type KonsuPage = {
   eyebrow: string;
   intro: string;
   image: string;
+  metaTitle?: string;
+  metaDescription?: string;
+  directionsOrigin?: string;
   gallery?: {
     src: string;
     alt: string;
@@ -13,6 +16,7 @@ export type KonsuPage = {
     title: string;
     body?: string;
     items?: string[];
+    links?: { href: string; label: string }[];
   }[];
 };
 
@@ -434,6 +438,157 @@ export const konsuPages: KonsuPage[] = [
 
 export const pageLinks = konsuPages.map(({ slug, title }) => ({ slug, title }));
 
+export const localPages: KonsuPage[] = [
+  {
+    slug: "da-padova",
+    title: "Da Padova",
+    script: "a Konsu",
+    eyebrow: "Il salone è a Campodarsego",
+    image: "/konsu/konsu-staff-campodarsego.jpg",
+    intro: "Un appuntamento per i tuoi capelli, fuori dalla routine. Da Padova puoi raggiungere Konsu nella sua sede di Campodarsego.",
+    metaTitle: "Da Padova a Konsu | Salone capelli a Campodarsego",
+    metaDescription: "Da Padova a Konsu: scopri taglio, colore e acconciature nel salone di Via Bassa III, 75 a Campodarsego. Prenota e apri le indicazioni.",
+    directionsOrigin: "Padova",
+    gallery: [
+      { src: "/konsu/gallery-ricci-2.jpg", alt: "Taglio riccio e colore realizzato da Konsu" },
+      { src: "/konsu/gallery-colore-claudia-wide.jpg", alt: "Lavoro colore capelli Konsu" },
+      { src: "/konsu/gallery-short-blonde.jpg", alt: "Taglio corto biondo realizzato da Konsu" },
+      { src: "/konsu/gallery-marilena-6.jpg", alt: "Acconciatura raccolta Konsu" },
+      { src: "/konsu/gallery-colori-caldi-2.jpg", alt: "Colore capelli dai toni caldi Konsu" },
+    ],
+    sections: [
+      {
+        title: "Capelli, con attenzione",
+        body: "Taglio, piega e colore nascono dall'ascolto: scegliamo insieme un risultato che valorizzi il tuo stile e sia piacevole da vivere ogni giorno.",
+        links: [{ href: "/hair-salon/", label: "Scopri il salone" }],
+      },
+      {
+        title: "Per un giorno speciale",
+        body: "Se stai preparando un evento, puoi esplorare anche le nostre acconciature e il make-up. Il primo passo è raccontarci l'occasione e ciò che immagini per te.",
+        links: [
+          { href: "/specialevent/", label: "Acconciature per eventi" },
+          { href: "/makeup/", label: "Make-up" },
+        ],
+      },
+      {
+        title: "Ci vediamo a Campodarsego",
+        body: "La sede Konsu è in Via Bassa III, 75, 35011 Campodarsego (PD). Prenota il tuo appuntamento e apri le indicazioni da Padova prima di partire.",
+      },
+    ],
+  },
+  {
+    slug: "da-camposampiero",
+    title: "Da Camposampiero",
+    script: "a Konsu",
+    eyebrow: "Il salone è a Campodarsego",
+    image: "/konsu/nails-hero-alt.jpg",
+    intro: "Un momento per mani, capelli o bellezza. Se parti da Camposampiero, Konsu ti accoglie nel salone di Campodarsego.",
+    metaTitle: "Da Camposampiero a Konsu | Bellezza a Campodarsego",
+    metaDescription: "Da Camposampiero a Konsu: unghie, capelli ed estetica nella sede di Via Bassa III, 75 a Campodarsego. Scopri i servizi e le indicazioni.",
+    directionsOrigin: "Camposampiero",
+    gallery: [
+      { src: "/konsu/nails-gallery-01.jpg", alt: "Ricostruzione unghie realizzata da Konsu" },
+      { src: "/konsu/nails-gallery-05.jpg", alt: "Nail art realizzata da Konsu" },
+      { src: "/konsu/nails-gallery-09.jpg", alt: "Dettaglio manicure Konsu" },
+      { src: "/konsu/gallery-fringe-color.jpg", alt: "Taglio e colore capelli Konsu" },
+      { src: "/konsu/estetica-flower-bed.jpg", alt: "Ambiente dedicato ai trattamenti estetici Konsu" },
+    ],
+    sections: [
+      {
+        title: "Un dettaglio tutto tuo",
+        body: "Dalla manicure alla ricostruzione unghie, il lavoro parte dalle tue preferenze e dalla cura del dettaglio. Puoi scoprire alcune creazioni nella gallery qui sotto.",
+        links: [{ href: "/ricostruzione-unghie/", label: "Ricostruzione unghie" }],
+      },
+      {
+        title: "Anche capelli ed estetica",
+        body: "Nello stesso salone trovi percorsi dedicati ai capelli e trattamenti estetici. Esplora le pagine dei servizi per scegliere quello che desideri approfondire.",
+        links: [
+          { href: "/hair-salon/", label: "Salone capelli" },
+          { href: "/estetica/", label: "Estetica" },
+        ],
+      },
+      {
+        title: "La nostra sede",
+        body: "L'appuntamento si svolge da Konsu, in Via Bassa III, 75, 35011 Campodarsego (PD). Da Camposampiero puoi aprire il percorso direttamente dal link alle indicazioni.",
+      },
+    ],
+  },
+  {
+    slug: "da-mira",
+    title: "Da Mira",
+    script: "a Konsu",
+    eyebrow: "Il salone è a Campodarsego",
+    image: "/konsu/estetica-hero-lettino-fiori.jpg",
+    intro: "Se desideri dedicarti una pausa di bellezza e benessere, puoi organizzare la visita da Mira al salone Konsu di Campodarsego.",
+    metaTitle: "Da Mira a Konsu | Estetica a Campodarsego",
+    metaDescription: "Da Mira a Konsu: trattamenti, estetica e massaggi nella sede di Campodarsego, Via Bassa III, 75. Scopri il salone e apri le indicazioni.",
+    directionsOrigin: "Mira VE",
+    gallery: [
+      { src: "/konsu/treatments-pressotherapy.jpg", alt: "Ambiente del trattamento pressoterapia Konsu" },
+      { src: "/konsu/treatments-presso-konsu.png", alt: "Trattamento pressoterapia Konsu" },
+      { src: "/konsu/massaggio-corpo-hero-kali.jpg", alt: "Massaggio corpo nel salone Konsu" },
+      { src: "/konsu/kobido-hero-massage.webp", alt: "Trattamento viso Kobido Konsu" },
+      { src: "/konsu/wellness.jpg", alt: "Ambiente benessere Konsu" },
+    ],
+    sections: [
+      {
+        title: "Una pausa per te",
+        body: "Viso, corpo e relax trovano spazio nei trattamenti Konsu. Per scegliere quello più adatto, parti dai servizi disponibili e raccontaci cosa stai cercando.",
+        links: [{ href: "/trattamenti/", label: "Esplora i trattamenti" }],
+      },
+      {
+        title: "Il valore del tempo",
+        body: "Un massaggio può diventare il momento da dedicare a te stessa. Scopri i percorsi corpo e i trattamenti viso descritti nel sito prima di prenotare.",
+        links: [
+          { href: "/massaggio_corpo/", label: "Massaggio corpo" },
+          { href: "/kabido-massage/", label: "Kobido massage" },
+        ],
+      },
+      {
+        title: "Dove trovarci",
+        body: "Ti aspettiamo nella sola sede Konsu di Via Bassa III, 75, 35011 Campodarsego (PD). Il link alle indicazioni imposta Mira come punto di partenza.",
+      },
+    ],
+  },
+  {
+    slug: "da-dolo",
+    title: "Da Dolo",
+    script: "a Konsu",
+    eyebrow: "Il salone è a Campodarsego",
+    image: "/konsu/gallery-marilena-11.jpg",
+    intro: "Un look da immaginare insieme, per ogni giorno o per un'occasione speciale. Da Dolo puoi prenotare nella sede Konsu di Campodarsego.",
+    metaTitle: "Da Dolo a Konsu | Acconciature a Campodarsego",
+    metaDescription: "Da Dolo a Konsu: acconciature, make-up e capelli nel salone di Via Bassa III, 75 a Campodarsego. Scopri i servizi e le indicazioni.",
+    directionsOrigin: "Dolo VE",
+    gallery: [
+      { src: "/konsu/gallery-marilena-11.jpg", alt: "Acconciatura raccolta per un evento Konsu" },
+      { src: "/konsu/gallery-marilena-6.jpg", alt: "Acconciatura elegante Konsu" },
+      { src: "/konsu/gallery-colore-claudia-tall.jpg", alt: "Colore capelli realizzato da Konsu" },
+      { src: "/konsu/gallery-rosso-1.jpg", alt: "Capelli mossi color rame Konsu" },
+      { src: "/konsu/styling-portrait.jpg", alt: "Lavoro di styling capelli Konsu" },
+    ],
+    sections: [
+      {
+        title: "Il look dell'occasione",
+        body: "Un'acconciatura pensata per un evento nasce dai tuoi desideri, dall'abito e dal modo in cui vuoi sentirti. Esplora il percorso dedicato ai momenti speciali.",
+        links: [{ href: "/specialevent/", label: "Special events" }],
+      },
+      {
+        title: "Capelli e make-up",
+        body: "Puoi approfondire i servizi capelli e make-up prima di fissare un appuntamento. Le fotografie mostrano lavori già presenti nella gallery Konsu.",
+        links: [
+          { href: "/hair-salon/", label: "Hair salon" },
+          { href: "/makeup/", label: "Make-up" },
+        ],
+      },
+      {
+        title: "L'appuntamento è a Campodarsego",
+        body: "Konsu si trova in Via Bassa III, 75, 35011 Campodarsego (PD). Se parti da Dolo, usa il link alle indicazioni per pianificare il viaggio.",
+      },
+    ],
+  },
+];
+
 export function getKonsuPage(slug: string) {
-  return konsuPages.find((page) => page.slug === slug);
+  return [...konsuPages, ...localPages].find((page) => page.slug === slug);
 }

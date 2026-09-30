@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { getKonsuPage, konsuPages, pageLinks } from "../konsu-pages";
+import { getKonsuPage, konsuPages, localPages, pageLinks } from "../konsu-pages";
 import { SiteFooter, SiteNav } from "../site-shell";
 
 type PageProps = {
@@ -10,7 +10,7 @@ type PageProps = {
 };
 
 export function generateStaticParams() {
-  return konsuPages.map((page) => ({ slug: page.slug }));
+  return [...konsuPages, ...localPages].map((page) => ({ slug: page.slug }));
 }
 
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
@@ -22,8 +22,8 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   }
 
   return {
-    title: `${page.title} | Konsu Parrucchieri`,
-    description: page.intro,
+    title: page.metaTitle ?? `${page.title} | Konsu Parrucchieri`,
+    description: page.metaDescription ?? page.intro,
     alternates: { canonical: `/${page.slug}` },
   };
 }
@@ -40,7 +40,7 @@ export default async function KonsuInnerPage({ params }: PageProps) {
     <main>
       <SiteNav />
 
-      <section className="inner-hero">
+      <section className={`inner-hero${page.directionsOrigin ? " inner-hero-local" : ""}`}>
         <div className="inner-hero-media" aria-hidden="true">
           <Image src={page.image} alt="" fill priority sizes="100vw" />
           <div />
@@ -82,6 +82,15 @@ export default async function KonsuInnerPage({ params }: PageProps) {
                   ))}
                 </ul>
               ) : null}
+              {section.links ? (
+                <ul>
+                  {section.links.map((link) => (
+                    <li key={link.href}>
+                      <Link href={link.href}>{link.label}</Link>
+                    </li>
+                  ))}
+                </ul>
+              ) : null}
             </article>
           ))}
         </div>
@@ -106,7 +115,23 @@ export default async function KonsuInnerPage({ params }: PageProps) {
       <section className="inner-cta">
         <p className="script">Ti aspettiamo</p>
         <h2>Prenota il tuo momento Konsu.</h2>
-        <Link href="/#booking">Prenota un appuntamento</Link>
+        {page.directionsOrigin ? (
+          <a href="https://hairflow.it/book/konsu" target="_blank" rel="noreferrer">
+            Prenota un appuntamento
+          </a>
+        ) : (
+          <Link href="/#booking">Prenota un appuntamento</Link>
+        )}
+        {page.directionsOrigin ? (
+          <a
+            className="directions-link"
+            href={`https://www.google.com/maps/dir/?api=1&origin=${encodeURIComponent(page.directionsOrigin)}&destination=${encodeURIComponent("Via Bassa III 75, 35011 Campodarsego PD")}`}
+            target="_blank"
+            rel="noreferrer"
+          >
+            Indicazioni da {page.directionsOrigin.replace(" VE", "")}
+          </a>
+        ) : null}
       </section>
 
       <SiteFooter />

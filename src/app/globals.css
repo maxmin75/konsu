@@ -1012,6 +1012,26 @@ img {
   margin-bottom: 14px;
 }
 
+.footer-local-title {
+  margin-top: 20px;
+  color: var(--gold);
+  font-size: 0.72rem;
+  font-weight: 800;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+}
+
+.footer-local-links {
+  line-height: 1.7;
+}
+
+.footer-local-links a:hover,
+.footer-local-links a:focus-visible,
+.inner-block a:hover,
+.inner-block a:focus-visible {
+  color: var(--gold);
+}
+
 .inner-hero {
   position: relative;
   display: grid;
@@ -1189,6 +1209,12 @@ img {
   content: "";
 }
 
+.inner-block a {
+  text-decoration: underline;
+  text-decoration-color: var(--gold);
+  text-underline-offset: 4px;
+}
+
 .inner-gallery-section {
   width: min(1180px, calc(100% - 32px));
   margin: 0 auto;
@@ -1260,6 +1286,10 @@ img {
 
 .inner-cta a:hover {
   transform: translateY(-2px);
+}
+
+.inner-cta .directions-link {
+  background: transparent;
 }
 
 @keyframes heroDrift {
@@ -1497,6 +1527,10 @@ img {
 
   .inner-hero h1 {
     font-size: clamp(3.4rem, 15vw, 5rem);
+  }
+
+  .inner-hero-local h1 {
+    font-size: clamp(2.3rem, 11.5vw, 4.1rem);
   }
 
   .inner-hero h1 span {
